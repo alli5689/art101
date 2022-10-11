@@ -1,7 +1,7 @@
 
 
 p {
-  color: blue;
+  color: pink;
   font-weight:bold;
 }
 
@@ -9,6 +9,22 @@ p {
   background-color:purple;
   padding:20px;
   margin:10px;
-  border:solid 1px orange;
+  border:solid 2px pink;
   border-radius:20px;
+}
+
+#image-border {
+  background-color:purple;
+  padding:20px;
+  margin:10px;
+  border:solid 2px pink;
+  border-radius:40px;
+}
+
+#cute {
+  background-color:purple;
+  padding:20px;
+  margin:10px;
+  border:solid 2px pink;
+  border-radius:40px;
 }
