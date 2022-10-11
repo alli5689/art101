@@ -1,43 +1,41 @@
 
-body {background-color:lightblue;}
+body {background-color:lightskyblue;}
 p {
-  color: hotpink;
+  color:fuchsia;
   font-weight:bold;
   font-size:30px;
   font-family: cursive;
 }
 
 img{
-  width: 20%;
+  width: 15%;
   height: auto;
 }
 
 a{
-  color:hotpink;
+  color:fuchsia;
 }
 
 h1{
-  color:hotpink;
+  color:fuchsia;
   font-family:cursive;
 }
 
 h2{
-  color:hotpink;
+  color:fuchsia;
   font-family:cursive;
 }
 
 #image-border {
-  background-color:purple;
+  background-color:#e0b0ff;
   padding:20px;
   margin:10px;
-  border:solid 5px pink;
-  outline:solid 5px;
+  border:solid 10px #fba0e3;
 }
 
 #cute {
-  background-color:purple;
+  background-color:#e0b0ff;
   padding:20px;
   margin:10px;
-  border:solid 5px pink;
-  outline:solid 5px;
+  border:solid 10px #fba0e3;
 }
