@@ -16,6 +16,7 @@
    var nameSorted = nameArraySort.join('');
    console.log("nameSorted =", nameSorted);
    return nameSorted;
+}
 
    // Output
    document.writeln("Oh hey, I've fixed your name: ",
