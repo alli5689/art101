@@ -1,7 +1,7 @@
 
 body {background-color:purple;}
 p {
-  color:black;
+  color:#fba0e3;
   font-weight:bold;
   font-size:20px;
   font-family: cursive;
@@ -13,23 +13,23 @@ img{
 }
 
 a{
-  color:pink;
+  color:#fba0e3;
 }
 
 h1{
-  color:pink;
+  color:#fba0e3;
   font-size:20px;
   font-family:cursive;
 }
 
 h2{
-  color:pink;
+  color:#fba0e3;
   font-size:20px;
   font-family:cursive;
 }
 
 h3{
-  color:pink;
+  color:#fba0e3;
   font-size:20px;
   font-family:cursive;
 }
@@ -42,7 +42,7 @@ h3{
 }
 
 #cute {
-  background-color:#e0b0ff;
+  background-color:purple;
   padding:20px;
   margin:10px;
   border:solid 10px #fba0e3;
