@@ -1,0 +1,51 @@
+
+body {background-color:purple;}
+p {
+  color:#fba0e3;
+  font-weight:bold;
+  font-size:20px;
+  font-family: cursive;
+}
+
+img{
+  width: 15%;
+  height: auto;
+}
+
+a{
+  color:#fba0e3;
+}
+
+h1{
+  color:#fba0e3;
+  font-size:20px;
+  font-family:cursive;
+  background-image:linear-gradient(#FF1493,#00FFFF);
+}
+
+h2{
+  color:#fba0e3;
+  font-size:20px;
+  font-family:cursive;
+}
+
+h3{
+  color:#fba0e3;
+  font-size:20px;
+  font-family:cursive;
+}
+
+
+.special{
+  background-image:linear-gradient(#FF1493,#00FFFF);
+}
+
+.special2{
+  background-image:linear-gradient(#FF1493,#00FFFF);
+}
+
+.special3{
+  background-image:linear-gradient(#FF1493,#00FFFF);
+}
+
+.
