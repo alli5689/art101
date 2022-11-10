@@ -1,23 +1,31 @@
   /*
   * Author: Allison Dutton <adutton@ucsc.edu>
-  * Created: 2 November
+  * Created: 9 November
   * Licence: Public Domain
   */
 
-$('#challenges').append('<button id="buttonChalEl">click me.</button>');
+//Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
+function sortingHat(str){
+  len = str.length;
+  mod = len % 4;
+  if (mod == 0){
+    return "Gryffindor";
+  }
+  else if (mod == 1){
+    return "Ravenclaw";
+  }
+  else if (mod == 2){
+    return "Slytherin";
+  }
+  else if (mod ==3){
+    return "Hufflepuff";
+  }
+}
 
-$('#problems').append('<button id="buttonProbEl">Button</button>');
-
-$('#results').append('<button id="buttonResEl">CLICK!</button>');
-
-$('#buttonChalEl').click(function(){
-  $('#challenges').toggleClass("special");
-});
-
- $('#buttonProbEl').click(function(){
-   $('#problems').toggleClass("special2");
- });
-
- $('#buttonResEl').click(function(){
-   $('#results').toggleClass("special3");
- })
+var myButton = document.getElementById("button");
+myButton.addEventListener("click", function(){
+  var name = document.getElementById("input").value;
+  var house = sortingHat(name);
+  newText = "<p> The sorting hat has sorted you into " + house + "</p>";
+  document.getElementById("output").innerHTML= newText;
+})
